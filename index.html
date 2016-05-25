@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>How a bill becomes a law</title>
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,300' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet'>
+		<link href='jquery.fullPage.css' rel='stylesheet'>
+		<link href='style.css' rel='stylesheet'>
+	</head>
+
+	<body>
+		<div id='fullpage'>
+			<div class='section'>
+				<div class='content'>
+					<h1>How a bill becomes a law</h1>
+					<h2>By Andrew Thomas</h2>
+				</div>
+			</div>
+			<div class='section'>
+				<div class='content'>
+					<h3>The beginning</h3>
+					<img src='http://blogs-images.forbes.com/actiontrumpseverything/files/2013/01/1111_idea_400x280.jpg'>
+					<p>Every law starts as an idea.</p>
+					<p>Ideas for laws can come from any citizen.</p>
+					<p>These ideas are given to the State's Representatives.</p>
+					<p>Representatives research these ideas and write bills based on them.</p>
+				</div>
+			</div>
+			<div class='section'>
+				<div class='content'>
+					<h3>The proposal</h3>
+					<img src='http://www.vtcrc.com/images/uploads/images/Become_a_Sponsor1.jpg'>
+					<p>The Representative shows the bill to other Representatives.</p>
+					<p>The Representative tries to find a sponsor for the bill.</p>
+					<p>Once a sponsor is found for the bill and several Representatives support the bill, the process moves forward.</p>
+				</div>
+			</div>
+			<div class='section'>
+				<div class='content'>
+					<h3>The introduction</h3>
+					<img src='http://kids.clerk.house.gov/images/content-images/con-bill-2-hopper.jpg'>
+					<p>The Representatives supporting the bill introduce it to the House of Representatives.</p>
+					<p>To introduce the bill, they put it in the Hopper.</p>
+					<p>The bill is given a number and then sent to a standing committee.</p>
+				</div>
+			</div>
+			<div class='section'>
+				<div class='content'>
+					<h3>At committee</h3>
+					<img src='http://www.aph.gov.au/~/media/05%20About%20Parliament/53%20HoR/538%20Photoarray%20images/Reps_committeeHearing_2.jpg'>
+					<p>Experts from the House of Representatives talk about the bill.</p>
+					<p>They read the bill, research the problems it addresses, and sometimes revise it.</p>
+					<p>Then they vote whether to send it back to the House floor or if the bill should die.</p>
+				</div>
+			</div>
+			<div class='section'>
+				<div class='content'>
+					<h3>Debate on House floor</h3>
+					<img src='http://www.tcdailyplanet.net/wp-content/uploads/files/13/07/050613safeschools_pb.jpg'>
+					<p>After the bill is approved by a committee, it is sent to the House floor.</p>
+					<p>Representatives debate the bill, explaining why they like or dislike it.</p>
+					<p>They make changes to each section of the bill to make it better.</p>
+					<p>Once all the changes have been made, they vote on the bill.</p>
+				</div>
+			</div>
+			<div class='section'>
+				<div class='content'>
+					<h3>The vote</h3>
+					<img src='http://www.lib-interactive.com/sites/g/files/g1148496/f/201508/vote.jpg'>
+					<p>Each State Representative in presence votes on the bill.</p>
+					<p>If a majority vote for the bill, it passes.</p>
+					<p>If less than a majority vote for it, it dies.</p>
+				</div>
+			</div>
+			<div class='section'>
+				<div class='content'>
+					<h3>On to the Senate</h3>
+					<img src='http://blog.constitutioncenter.org/wp-content/uploads/2012/01/us-capitol-0105.jpg'>
+					<p>After being approved by the House of Representatives, the bill moves to the Senate.</p>
+					<p>The Senate does many of the same things as the House of Representatives to research and debate the bill.</p>
+					<p>Once satisfied that they know enough about the bill, they vote on it.</p>
+					<p>If a majority of Senators don't vote "yes" for the bill, it dies.</p>
+				</div>
+			</div>
+			<div class='section'>
+				<div class='content'>
+					<h3>Final step! The President</h3>
+					<img src='http://rushincrash.com/postimages/23%20Oct%202015/Obama%20vetoed%20approving%20military%20assistance%20to%20Ukraine%20the%20bill/original/Obama%20vetoed%20approving%20military%20assistance%20to%20Ukraine%20the%20bill.jpg'>
+					<p>Now that the bill has been approved by both the House of Representatives and the Senate, it goes to the President.</p>
+					<p>If the President likes the bill, he signs it and it becomes a law.</p>
+					<p>If the President doesn't like the bill, he can veto it.</p>
+					<p>If the President vetoes the bill, it goes back to the Senate who can override the veto and make the bill a law if 2/3 vote "yes".</p>
+				</div>
+			</div>
+			<div class='section'>
+				<div class='content'>
+					<h1>The end</h1>
+					<h2>That's how a bill becomes a law</h2>
+				</div>
+			</div>
+		</div>
+		<script src='https://code.jquery.com/jquery-1.12.4.min.js'></script>
+		<script src='jquery.fullPage.min.js'></script>
+		<script>
+			$(document).ready(function() {
+				$('#fullpage').fullpage({
+					anchors: ['cover', 'beginning', 'proposal', 'introduction', 'committee', 'debate', 'vote', 'senate', 'president'],
+					navigation: true,
+					navigationPosition: 'right',
+					navigationTooltips: ['Cover', 'The beginning', 'The proposal', 'The introduction', 'At committee', 'Debate on House floor', 'The vote', 'On to the Senate', 'Final step! The President', 'The end']
+				})
+			})
+		</script>
+	</body>
+
+</html>
